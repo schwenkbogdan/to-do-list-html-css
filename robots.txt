@@ -1,0 +1,9 @@
+# Запрещаем всем роботам доступ к административным страницам
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+
+# Разрешаем доступ к остальным страницам
+User-agent: *
+Allow: /

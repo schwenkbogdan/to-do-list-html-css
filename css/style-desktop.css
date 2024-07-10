@@ -1,0 +1,58 @@
+.rounded-img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(26, 9, 9, 0.4);
+  padding: 0.2em;
+}
+
+/* Стили для темной темы */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #3b3b3b;
+    color: #fff;
+  }
+}
+
+/* Стили для светлой темы */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+/* Обнуление стилей для списка */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; /* Цвет фона навигационного меню */
+}
+
+/* Стили для элементов списка */
+li {
+  float: left;
+}
+
+/* Стили для ссылок в элементах списка */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px; /* Отступы по вертикали и горизонтали */
+  text-decoration: none;
+}
+
+/* При наведении мыши */
+li a:hover {
+  background-color: #555; /* Изменение цвета фона при наведении */
+}
+
+#origin-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Высота контейнера на весь экран */
+  
+
+}
